@@ -1,3 +1,3 @@
-mongo_uri = "mongodb+srv://****:****@mediatest.5tka5.mongodb.net/?retryWrites=true&w=majority"
+mongo_uri = "mongodb+srv://tejaboddapati:Bangalore123@cluster0.tcgzn.mongodb.net/?retryWrites=true&w=majority&appName=Images"
 db = "vector_search"
 collection = "products"

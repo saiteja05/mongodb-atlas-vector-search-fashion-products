@@ -135,5 +135,21 @@ def index():
 def advanced():
     return render_template("advanced.html")
 
+@app.route('/re')
+def re():
+    return render_template("re.html")
+
+@app.route('/refacet')
+def refacet():
+    return render_template("re_advanced.html")
+
+@app.route('/myntra')
+def myntra():
+    return render_template("myntra.html")
+
+@app.route('/myntrafacet')
+def myntra2():
+    return render_template("myntra2.html")
+
 if __name__ == '__main__':
     app.run(host="localhost", port=5010, debug=True)
